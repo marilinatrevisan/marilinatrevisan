@@ -67,7 +67,10 @@ header {
 	
 }
 
-
+.menu {
+			padding-top: 0.2rem;
+			padding-bottom: 0.3rem;
+}
 
 
 /* ESTILOS MENU */
@@ -210,7 +213,7 @@ h3 {
 	font-size: 1.5rem;
 	font-family: 'Lato', sans-serif;
 	color:#06908f;
-
+	text-transform: bold;
 }
 
 
@@ -220,14 +223,18 @@ h3 {
 		font-size: 2.7rem;
 		padding-left: 30px;
 		padding-right: 30px;
-}
+		padding-top: 1.2rem;
+		font-weight: bold;
+		}
 
 @media (max-width: 992px) {
 	.subtitulos {
 			font-size: 2rem;
 			padding-left: 20px;
-			padding-right: 20px;
-	}
+			padding-right: 80px;
+			padding-top: 1.2rem;
+			font-weight: bold;
+		}
 	
 }
 
@@ -236,7 +243,9 @@ h3 {
 			font-size: 1.5rem;
 			padding-left: 10px;
 			padding-right: 10px;
-	}
+			padding-top: 1.2rem;
+			font-weight: bold;	
+		}
 	
 }
 
@@ -257,7 +266,7 @@ h5 {
 /* SECCION SOBRE MI */
 
 
-.sobremi {
+.titulosobremi {
 	display: inline-block;
   	animation: animate__animated animate__fadeInRight; /* referring directly to the animation's @keyframe declaration 
   	animation-duration: 2s; /* don't forget to set a duration! */
@@ -269,7 +278,7 @@ h5 {
 			padding-left: 80px;
 			padding-right: 30px;
 			padding-top: 80px;
-			padding-bottom: 90px;
+
 			font-size: 2.7rem;
 }
 
@@ -278,7 +287,8 @@ h5 {
 	.sobremi_texto {
 			font-size: 2rem;
 			padding-left: 80px;
-
+			padding-left: 80px;
+			padding-right: 30px;
 	}
 	
 }
@@ -287,7 +297,8 @@ h5 {
 	.sobremi_texto {
 			font-size: 1.5rem;
 			padding-left: 60px;
-
+			padding-left: 10px;
+			padding-right: 0px;
 	}
 	
 }
@@ -298,31 +309,59 @@ h5 {
 #contenedorSobreMi {
 	display: inline-flex;
 	flex-direction: row;
-	background-image: url("https://drive.google.com/uc?export=view&id=1qfkGGkKlb4TY2LNIvAP6j__V0rBGsxEe"); 
+/*	background-image: url("https://drive.google.com/uc?export=view&id=1qfkGGkKlb4TY2LNIvAP6j__V0rBGsxEe"); */
 	background-repeat: no-repeat;
 	background-size: cover;
-	padding-top: 5rem;
-	padding-bottom: 5rem;
+
 
 }
 
-/*
-#fotomarilina {
 
-	width: 149px;
-	height: 169px;
-	left: 202px;
-	top: 186px;
+.fotomarilina {
 
+			width: 300px; /*ancho*/
+			height: 500px; /*alto*/
+			padding-top: 2rem;
+			padding-bottom: 5rem;
+			/*
+			padding-left: 80px;
+			padding-right: 30px;
+			padding-top: 80px;
+			padding-bottom: 90px;
+			font-size: 2.7rem;*/
 }
 
-#fotomarilina:hover {
-	height: 200px; width: 200px;
-	text-align: right; 
-	transform: rotate(5deg);
+
+@media (max-width: 992px) {
+	.fotomarilina {
+			width: 300px; /*ancho*/
+			height: 500px; /*alto*/
+			padding-top: 2rem;
+			padding-bottom: 2rem;
+	}
+	
 }
 
+@media (max-width: 768px) {
+	.fotomarilina {
+			width: 200px; /*ancho*/
+			height: 400px; /*alto*/
+			padding-top: 8rem;
+			padding-bottom: 0rem;
+	}
+	
+}
 
+#QuePuedoHacerPorVos {
+	padding-left: 12rem;
+	text-decoration: none;
+}
+body div div a:hover  {
+	background-color: beige;
+	transform: scale(1.3);
+	text-decoration: none;
+	color:#004346;
+}
 
 /*
 .grid {
@@ -401,7 +440,7 @@ section {
 
 #trabajos_realizados h3 {
 	color: white;
-	text-transform: bolder;
+	font-weight: bolder;
 }
 
 
@@ -411,7 +450,7 @@ section {
 
 #contacto {
 	font-size: 1.5rem;
-	padding-left: 2rem;
+
 	padding-right: 2rem;
 }
 
@@ -431,13 +470,51 @@ fieldset {
 
 /* ESTILO DEL FOOTER*/
 
+
+.volveralinicio {
+			color: #004346;
+			font-size: 2.5rem;
+			font-family: 'Josefin Sans', sans-serif;
+			text-decoration: none;	
+			font-weight: bolder;
+			padding-top: 80px;
+
+}
+
+
+.volveralinicio:hover {
+	background-color: #0ca4a5;
+	transform: scale(1.3);
+	text-decoration: none;
+	color:white;
+}
+
+
+@media (max-width: 992px) {
+	.sobremi_texto {
+			font-size: 2rem;
+			padding-left: 80px;
+			padding-left: 80px;
+			padding-right: 30px;
+	}
+	
+}
+
+@media (max-width: 768px) {
+	.sobremi_texto {
+			font-size: 1.5rem;
+			padding-left: 60px;
+			padding-left: 10px;
+			padding-right: 0px;
+	}
+	
+}
+
 footer {
 	font-family: 'Josefin Sans', sans-serif;
 	font-weight: normal;
 	font-size: 1rem;
 	padding: 2rem;
-
-
 	background-color: #06908f;*/
 	background-image: linear-gradient(to top, #06908f 0%, #0ca4a5 100%);
 
