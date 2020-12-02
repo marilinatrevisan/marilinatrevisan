@@ -1,0 +1,742 @@
+/* ESTILOS HTML GENERAL Y BODY */
+
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+	margin-left: 3%;
+	margin-right: 3%;
+	overflow: scroll;
+    scroll-behavior: smooth;
+	max-width:1300px;
+}
+
+
+
+
+/* ESTILOS GENERALES: párrafos, h1/3 y a */
+
+p {
+	color:#004346;
+	font-size:1rem;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+.parrafo {
+		font-size: 2rem;
+		font-family: 'Kumbh Sans', sans-serif;
+	}
+
+@media (max-width: 992px) {
+	.parrafo {
+			font-size: 2rem;
+			padding-left: 20px;
+			padding-right: 20px;
+			font-family: 'Kumbh Sans', sans-serif;
+	}
+	
+}
+
+@media (max-width: 768px) {
+	.parrafo {
+			font-size: 1.2rem;
+			padding-left: 10px;
+			padding-right: 10px;
+			font-family: 'Kumbh Sans', sans-serif;
+	}
+	
+}
+
+
+
+a {
+	color:#1F5157;
+	font-size:1rem;
+	font-family: 'Kumbh Sans', sans-serif;
+}
+
+
+h1 {
+	font-family: 'Josefin Sans', sans-serif;
+	background-color: #004346;
+	color: white;
+	font-size:2rem;
+	padding: 1rem;
+
+}
+
+
+@media (max-width: 992px) {
+	h1 {
+			font-size: 1.5rem;
+			padding-left: px;
+			padding-right: 0px;
+			padding-top: 0.5rem;
+			padding-bottom: 0.5rem;
+				}
+	
+}
+
+@media (max-width: 768px) {
+	h1 {
+			font-size: 15px;
+			padding-left: 5px;
+			padding-right: 5px;
+			padding-top: 0.5rem;
+			padding-bottom: 0.5rem;
+
+		}
+	
+}
+
+
+.seccion {
+		font-size: 2.7rem;
+		padding-left: 30px;
+		padding-right: 30px;
+		font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+@media (max-width: 992px) {
+	.seccion {
+			font-size: 2.5rem;
+			padding-left: 20px;
+			padding-right: 20px;
+			font-family: 'Josefin Sans', sans-serif;
+	}
+	
+}
+
+@media (max-width: 768px) {
+	.seccion {
+			font-size: 1.5rem;
+			padding-left: 10px;
+			padding-right: 10px;
+			font-family: 'Josefin Sans', sans-serif;
+	}
+	
+}
+
+
+
+h3 {
+	font-size: 1.5rem;
+	font-family: 'Lato', sans-serif;
+	color:#06908f;
+	text-transform: bold;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+
+
+
+
+
+
+.subtitulos {
+		font-size: 2.7rem;
+
+		padding-right: 30px;
+		padding-top: 1.2rem;
+		font-weight: bold;
+		}
+
+@media (max-width: 992px) {
+	.subtitulos {
+			font-size: 2rem;
+			padding-left: 20px;
+			padding-right: 80px;
+			padding-top: 1.2rem;
+			font-weight: bold;
+		}
+	
+}
+
+@media (max-width: 768px) {
+	.subtitulos {
+			font-size: 1.3rem;
+			padding-left: 0px;
+			padding-right: 0px;
+			padding-top: 0px;
+			padding-bottom: 0rem;
+			font-weight: bold;	
+			margin: 10px;
+		}
+	
+}
+
+
+
+h5 {
+	font-family: 'Lato', sans-serif;
+	color: black;
+	font-size:1.2rem;
+
+
+	/*text-align: center;*/
+}
+
+@media (max-width: 992px) {
+	h5 {
+			padding-top: 1rem;
+			padding-bottom: 1rem;
+
+		}
+	
+}
+
+@media (max-width: 768px) {
+	h5 {
+		margin: 5px;
+
+			padding-top: 0px;
+			padding-bottom: 0rem;
+
+		}
+	
+}
+
+
+
+
+/* ESTILOS HEADER */
+
+header {
+	font-family: 'Kumbh Sans', sans-serif;
+	font-weight: normal;
+	color: white;
+	background-color: white;
+	animation-name: aparecer;
+	animation-duration: 3s;
+}
+
+
+
+@keyframes aparecer {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
+
+
+#header__logo {
+			width: 400px; /*ancho*/
+			height: 80px; /*alto*/
+			padding-bottom: 8px;
+
+}
+
+@media (max-width: 992px) {
+	#header__logo {
+			width: 300px; /*ancho*/
+			height: 70px; /*alto*/
+
+	}
+	
+}
+
+@media (max-width: 768px) {
+	#header__logo {
+			width: 200px; /*ancho*/
+			height: 45px; /*alto*/
+	}
+	
+}
+
+/* MENÚ */
+
+.menu {
+			padding-top: 1rem;
+			padding-bottom: 0.1rem;
+			margin-bottom: 0rem;
+			margin-right: 0rem;
+			font-family: 'Josefin Sans', sans-serif;
+			background-color: #06908f;
+		}
+
+
+/* ESTILOS MENU */
+
+
+body nav ul li a {
+	display: inline-block;
+	text-decoration: none;
+	color:white;
+
+
+} 
+
+body nav ul li a:hover {
+	background-color: #0ca4a5;
+	transform: scale(1.2);
+	text-decoration: none;
+	color: white;
+}
+
+
+nav ul {
+	display: flex;
+	flex-wrap: nowrap;
+	color: white;
+	text-align: center;
+	padding-inline-start: 0px;
+}
+
+li {
+	display: inline;
+	width: 50%;
+	transition: all 3s;
+}
+
+
+.boton__menu {
+		font-size: 2rem;
+
+}
+
+@media (max-width: 992px) {
+	.boton__menu {
+			font-size: 1.5rem;
+
+	}
+	
+}
+
+@media (max-width: 768px) {
+	.boton__menu {
+			font-size: 1rem;
+
+	}
+	
+}
+
+ 
+header nav ul {
+	list-style: none;
+	overflow: hidden;
+}
+ 
+ nav ul li {
+	float: left;
+}
+ 
+header nav ul li a {
+	display: block;
+}
+
+
+/* --- Clase que agregaremos cuando el usuario haga scroll --- */
+.contenedorMenu {
+	position:fixed;
+	width: 100%;
+	max-width:1300px;
+	padding-right: 2.4%;
+	margin: 0px;
+	z-index:1000;
+	top:0;
+	width:100%;
+
+
+}
+
+@media (max-width: 992px) {
+	.contenedorMenu {
+		padding-right: 6%;
+
+		}
+	
+}
+
+@media (max-width: 768px) {
+		#sobremi {
+			padding-right: 20%;
+
+		}
+	
+}
+
+
+/* SECCION SOBRE MI */
+
+#sobremi {
+	padding-top: 14rem;
+}
+
+@media (max-width: 992px) {
+	#sobremi {
+			padding-top: 12rem;
+			padding-bottom: 0rem;
+
+		}
+	
+}
+
+@media (max-width: 768px) {
+	#sobremi {
+			padding-top: 9rem;
+			padding-bottom: 0rem;
+			padding-right: 0px;
+
+		}
+	
+}
+#contenedorSobreMi {
+	display: inline-flex;
+	flex-direction: row;
+/*	background-image: url("https://drive.google.com/uc?export=view&id=1qfkGGkKlb4TY2LNIvAP6j__V0rBGsxEe"); 
+	background-repeat: no-repeat;
+	background-size: cover;*/
+
+
+}
+
+.titulosobremi {
+	display: inline-block;
+  	animation: animate__animated animate__fadeInRight; /* referring directly to the animation's @keyframe declaration 
+  	animation-duration: 2s; /* don't forget to set a duration! */
+
+}
+
+.sobremi_texto {
+
+			padding-left: 80px;
+			padding-right: 30px;
+			padding-top: 80px;
+			font-size: 2.5rem;
+}
+
+
+@media (max-width: 992px) {
+	.sobremi_texto {
+			font-size: 2rem;
+			padding-left: 80px;
+			padding-right: 30px;
+	}
+	
+}
+
+@media (max-width: 768px) {
+	.sobremi_texto {
+			font-size: 1.5rem;
+			padding-left: 30px;
+			padding-right: 30px;
+			padding-top: 2rem;
+	}
+
+	
+}
+
+
+
+
+.fotomarilina {
+
+			width: 300px; /*ancho*/
+			height: 500px; /*alto*/
+			padding-top: 2rem;
+			padding-bottom: 5rem;
+}
+
+
+@media (max-width: 992px) {
+	.fotomarilina {
+			width: 250px; /*ancho*/
+			height: 400px; /*alto*/
+			padding-top: 2rem;
+			padding-bottom: 0rem;
+			padding-right: 3rem;
+	}
+	
+}
+
+@media (max-width: 768px) {
+	.fotomarilina {
+			width: 300px; /*ancho*/
+			height: 450px; /*alto*/
+			padding-top: 2rem;
+			padding-left: 40px;
+			padding-bottom: 0px;
+	}
+	
+}
+
+.QuePuedoHacerPorVos {
+	padding-left: 8rem;
+	font-size: 2.5rem;
+	text-decoration: none;
+}
+
+@media (max-width: 992px) {
+	.QuePuedoHacerPorVos {
+			padding-left: 7rem;
+			font-size: 2.2rem;
+			text-decoration: none;
+	}
+	
+}
+
+@media (max-width: 768px) {
+	.QuePuedoHacerPorVos {
+			padding-left: 3rem;
+			font-size: 1.6rem;
+			text-decoration: none;
+
+	}
+	
+}
+
+
+
+body div div a:hover  {
+	background-color: beige;
+	transform: scale(2.3);
+	text-decoration: none;
+	color:#004346;
+}
+
+/*
+.grid {
+	display: grid;
+	grid-template-columns: 2fr 2fr;
+	grid-template-rows: 2fr 2fr;
+}
+*/
+
+
+
+/* ESTILOS DE LA SECCION SERVICIOS */
+
+
+.contenedorServicios {
+
+		margin-left: 5rem;
+		margin-right: 5rem;
+}
+
+@media (max-width: 992px) {
+	.contenedorServicios {
+
+		margin-left: 3rem;
+		margin-right: 3rem;
+
+	}
+	
+}
+
+@media (max-width: 768px) {
+	.contenedorServicios {
+		margin-left: 1rem;
+		margin-right: 1rem;
+
+	}
+	
+}
+
+
+
+.btn-link {
+		padding: 0px;
+}
+
+@media (max-width: 992px) {
+			.btn-link {
+		padding: 0px;
+
+	}
+	
+}
+
+@media (max-width: 768px) {
+			.btn-link {
+		padding: 0px;
+		margin: 0px;
+
+	}
+	
+} 
+
+
+
+/* ESTILOS DE LA SECCION TRABAJOS REALIZADOS */
+
+
+#trabajos_realizados {
+	text-align: center;
+	color: white;
+	padding: 3rem;
+
+	display: flex;
+	flex-direction: column;
+	background-image: url(https://drive.google.com/uc?export=view&id=16jCD3lJWTDuryjV79bS-bHcAXJvkKl1n);
+/*	background-image: linear-gradient(to top, #004346 0%, #0ca4a5 100%);
+*/
+}
+
+.card-header {
+	background-color: #06908f;
+	padding: 0px;
+}
+
+
+@media (max-width: 992px) {
+			.card-header {
+	margin: 2rem;
+	padding: 0rem;
+	margin: 0rem;
+	}
+	
+}
+
+@media (max-width: 768px) {
+			.card-header {
+	font-size: 1rem;
+	padding: 0rem;
+	margin: 0rem;
+
+	}
+	
+}
+
+
+
+.contenedorExplorador {
+	height: 100%;
+	width: 100%;
+}
+
+
+
+#trabajos_realizados h3 {
+	color: white;
+	font-weight: bolder;
+}
+
+
+
+
+/* ESTILOS DE LA SECCION NOVEDADES */
+
+.card {
+	margin: 3rem;
+}
+
+
+@media (max-width: 992px) {
+			.card {
+	margin: 2rem;
+
+	}
+	
+}
+
+@media (max-width: 768px) {
+			.card {
+	margin: 0.2rem;
+
+	}
+	
+}
+
+/* Para tener un ancho máximo debemos de establecer el width del DIV.delimitador */
+.delimitador{
+	width:100%;
+	height:100%;
+	margin:auto;
+}
+/* El contenedor con el padding-top crea el tamaño del vídeo */
+.contenedor{
+	height:100%;
+	width:100%;
+	max-width:1500px; /* Así establecemos el ancho máximo (si lo queremos) */
+	padding-top:56.25%; /* Relación: 16/9 = 56.25% */
+	position:relative;
+}
+/* El iframe se adapta al tamaño del contenedor */
+	iframe{
+	height:100%;
+	width:100%;
+	top:0px;
+	left:0px;
+}
+
+
+
+
+/* ESTILO DE CONTACTO Y FORM */
+
+form {
+	font-size: 1rem;
+	color: #06908f;
+	padding-left: 0rem;
+
+}
+
+fieldset {
+	display: block;
+	padding-left: 2rem;
+	padding-right: 2rem;
+}
+
+
+
+
+/* ESTILO DEL FOOTER*/
+
+
+.volveralinicio {
+			color: #004346;
+			font-size: 2.5rem;
+			font-family: 'Josefin Sans', sans-serif;
+			text-decoration: none;	
+			font-weight: bolder;
+}
+
+
+@media (max-width: 992px) {
+			.volveralinicio {
+			font-size: 2rem;
+
+	}
+	
+}
+
+@media (max-width: 768px) {
+			.volveralinicio {
+			font-size: 1.5rem;
+
+	}
+	
+}
+
+.volveralinicio:hover {
+	background-color: #0ca4a5;
+	transform: scale(1.3);
+	text-decoration: none;
+	color:white;
+}
+
+
+
+footer {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: normal;
+	font-size: 1rem;
+	padding: 2rem;
+	background-color: #06908f;*/
+	background-image: linear-gradient(to top, #06908f 0%, #0ca4a5 100%);
+
+}
+
+
+footer p {
+	color: white;
+
+}
