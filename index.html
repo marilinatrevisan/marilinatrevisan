@@ -5,14 +5,11 @@
 			<title>Marilina Trevisan</title>
 	
 				<link rel="stylesheet"
-					href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-					integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-					crossorigin="anonymous">
-
-
-
+				href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+				integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+				crossorigin="anonymous">
+				<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 				<meta name="viewport" content="width=device-width, user-scalable=no">
-
 				<link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Josefin+Sans&family=Kumbh+Sans:wght@300;400;700&family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700&family=Poppins:wght@700&display=swap" rel="stylesheet">
 				<link rel="stylesheet" type="text/css" href="estilo.css">
 				<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
@@ -20,93 +17,150 @@
 				<meta name="keywords" content="Data Analytics, Data Science, Marketing Digital, Python, Análisis de datos, Consultoría.">
 </head>
 
+
+
 <body class="body">
 <!------------------   HEADER  ------------------------->
 
 
+<div class="contenedorMenu">
+	<header>
 
-<h1><header class="titulo__marilina" class="col-lg-12 col-md-12 col-sm-12"><div id="header__logo"><img src="img/logo.jpg" class="img-fluid" alt="logo" height="30" width="40" id="inicio"/></div></a></a>Marilina Trevisan</h1>		
-<div class="menu">	
-	<nav class="animate__animated animate__slideInRight" >
-		<ul>
-			<li><a class="boton__menu" href="sobremi.html">Sobre mi</a></li>
-			<li><a class="boton__menu" href="servicios.html">Servicios</a></li>
-			<li><a class="boton__menu" href="trabajos_realizados.html">Trabajos realizados</a></li>
-			<li><a class="boton__menu" href="novedades.html">Novedades</a></li>
-			<li><a class="boton__menu" href="contacto.html"> Contacto </a></li>
-		</ul>
-	</nav>
+
+		<div id="inicio">
+			<a href="index.html">
+				<img src="img/logo2.png" class="img-fluid" id="header__logo" alt="logo" height="150" width="200">
+			</a>
+		</div>
+
+
+		<div class="menu">	
+			<nav class="animate__animated animate__slideInRight" >
+				<ul>
+					<li><a class="boton__menu" href="#sobremi"> Sobre mi </a></li>
+					<li><a class="boton__menu" href="#servicios"> Servicios </a></li>
+					<li><a class="boton__menu" href="#contenedorTrabajos"> Trabajos </a></li>
+					<li><a class="boton__menu" href="#contenedorNovedades"> Novedades </a></li>
+					<li><a class="boton__menu" href="#contacto"> Contacto </a></li>
+				</ul>
+			</nav>
+		</div>
+	
 </div>
-</header>
-
-
-
 
 
 <!------------------   SOBRE MI  ------------------------->
 
-<div>
+	<div id="sobremi">
 		<h1 class="seccion" class="titulosobremi" class="animate__animated animate__fadeInLeft">Sobre mi</h1>
-
-
 			<div id="contenedorSobreMi">
+				<div class="row">		
+					<div class="col-lg-7 col-md-8 col-sm-6">
+						<p class="sobremi_texto"> 
+						Mis ganas de transformar la realidad social y entender el comportamiento de las personas me llevaron a recibirme de Licenciada en Ciencia Política. Pero mi pasión por la tecnología hizo que me especializara en análisis de datos y audiencias digitales. Actualmente me desempeño como Analista Web Sr. </p>
+						<div class="ContenedorQuePuedoHacerPorVos">
+							<a class="QuePuedoHacerPorVos" href="#contacto"><b>¿Qué puedo hacer por vos?  </b></a>
+						</div>
+					</div>
+				
 		
-			<div class="col-lg-8 col-md-8 col-sm-6">
-				<p class="sobremi_texto"> Mis ganas de transformar la realidad social y entender el comportamiento de las personas me llevaron a recibirme de Lic. en Ciencia Política. Pero mi pasión por la tecnología hizo que me especializara en análisis de datos y audiencias digitales. Actualmente me desempeño como Analista Web Sr. </p>
-				<a class="parrafo" class="QuePuedoHacerPorVos" href="#contacto"><b>¿Qué puedo hacer por vos?  </b></a>
+					<div class="col-5 col-md-3 col-sm-3">
+						<div id="fotomarilina" class="fotomarilina"> 
+						<!--<img src="https://drive.google.com/uc?id=15z1YVQ_82-tCj7uxIGwopprrvrwMvsy4" alt="marilinatrevisan" class="img-fluid">--> <img src="img/marilinatrevisan.jpg" alt="marilinatrevisan" class="img-fluid"> 
+						</div>
+					</div>
+				</div>
 			</div>
-		
-
-		<div id="fotomarilina" class="fotomarilina"> <img src="img/mtrevisan.jpg" alt="marilinatrevisan" class="img-fluid"> </div>
 	</div>
-</div>
-	
+
+
 
 
 <!------------------   SERVICIOS  ------------------------->
-
+<div id="servicios">
 <h1 class="seccion" class="animate__animated animate__fadeInLeft">Servicios </h1>
 	
-<div id="servicios" class="col-lg-12 col-md-12 col-sm-12">
 
-	<section>		
+<!--
+<div class="card-deck">
+  <div class="col-sm-12">
+    <div class="card w-25">
+      <div class="card-body">
+        <h3 class="subtitulos">Análisis de datos</h3>
+        <img class="card-img-top" src="img/7.png" alt="analisis de datos">
+        <p class="parrafo">En el mundo actual, es cada vez más importante tener organizaciones data-driven. Por eso, te ayudo a recopilar, modelar, visualizar y analizar datos. 
+					A través de modelos descriptivos, explicativos y predictivos, puedo colaborar al entendimiento de la data para transformarla en información y conocimiento. Y, a partir de esto, ayudarte en líneas de acción posibles en la toma de decisiones.</p>
 
-		<div class="container-fluid">
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card w-75">
+      <div class="card-body">
+        <h3 class="subtitulos">Research</h3>
+        <img class="card-img-top" src="img/8.png" alt="research">
 
-			<h3 class="subtitulos">Análisis de datos</h3>
-				<img class="img__servicios" src="img/1.png" alt="data analytics" height="400">
-					<p class="parrafo"> En el mundo actual, es cada vez más importante tener organizaciones data-driven. Por eso, te ayudo a recopilar, modelar, visualizar y analizar datos. 
-					A través de modelos descriptivos, explicativos y predictivos, puedo colaborar al entendimiento de la data para transformarla en información y conocimiento. Y, a partir de esto, ayudarte en líneas de acción posibles en la toma de decisiones.
-					</p>
-		</div>
-
-		<div>
-			<h3 class="subtitulos">Research</h3>
-				<img class="img__servicios" id="servicio2" src="img/2.png" alt="research" height="400">
-					<p class="parrafo">Realizo investigaciones sociales, políticas y de mercado, coordinando con los clientes el tipo de información que desean alcanzar. Focus groups, entrevistas en profundidad y UX research son los pilares para las investigaciones cualitativas, que responden al "cómo" y "por qué de las cosas. 
-					Mientras que las investigaciones cuantitativas permiten medir la significancia estadística de los hallazgos y responder al "cuántos".
-			 		</p>
-		</div>
-
-
-		<div>
-			<h3 class="subtitulos">Data Science y Analítica Avanzada</h3>
-				<img class="img__servicios" id="servicio3" src="img/3.png" alt="data science, analítica avanzada" height="400">
-					<p class="parrafo">Pronosticar y anticiparse al futuro es posible con datos. A través de modelos de Machine Learning, te ayudo a conocer el comportamiento probable de usuarios y la factibilidad de que algo suceda. También es posible clusterizar y segmentar grupos y audiencias en base a datos demográficos y comportamentales, hacer análisis en base al procesamiento del lenguaje natural o redes neuronales.
-			
-					</p>
-			</div>
-
-
-		<div>
-			<h3 class="subtitulos">Consultoría en Marketing Digital</h3>
-				<img class="img__servicios" id="servicio4" src="img/4.png" alt="servicio4" height="400">
-					<p class="parrafo">Asesoramiento en campañas de publicidad, e-mail marketing y redes sociales para que tu producto llegue al público correcto. También te acompaño en el posicionamiento de tu marca, A/B testing y en el diseño de estrategias de marketing analytics para incrementar ventas. 
-			
-					</p>
-		</div>
-	</section>
+        <p class="parrafo">Realizo investigaciones sociales, políticas y de mercado, coordinando con los clientes el tipo de información que desean alcanzar. Focus groups, entrevistas en profundidad y UX research son los pilares para las investigaciones cualitativas, que responden al "cómo" y "por qué" de las cosas. 
+					Mientras que las investigaciones cuantitativas permiten medir la significancia estadística de los hallazgos y responder al "cuántos".</p>
+             </div>
+    </div>
+  </div>
 </div>
+</div>
+-->
+
+
+<div class="contenedorServicios">
+	<div class="card-deck">
+		<div class="col-lg-6 col-md-8 col-sm-12">
+			<div class="card">
+	  			<img class="card-img-top" src="img/Ilustracion8.png" alt="analisis de datos">
+	 				 <div class="card-body">
+	   					 <h3 class="subtitulos">Análisis de datos</h3>
+	   					 <p class="parrafo">En el mundo actual, es cada vez más importante tener organizaciones data-driven. Por eso, te ayudo a recopilar, modelar, visualizar y analizar datos. 
+						A través de modelos descriptivos y explicativos puedo transformar la data en información y conocimiento. Y, a partir de esto, ayudarte en líneas de acción posibles en la toma de decisiones.</p>
+	    				 
+	  				</div>
+			</div>
+		</div>	
+
+		<div class="col-lg-6 col-md-8 col-sm-12">
+			<div class="card">
+	  			<img class="card-img-top" src="img/Ilustracion7.png" alt="Data Science y Analítica Avanzada">
+	 				 <div class="card-body">
+	   					 <h3 class="subtitulos">Data Science</h3>
+	   					 <p class="parrafo">Anticiparse al futuro es posible con datos. A través de modelos de Machine Learning, te ayudo a conocer la factibilidad de que algo suceda. También es posible clusterizar y segmentar grupos o audiencias en base a datos demográficos y comportamentales, hacer analítica avanzada en base al procesamiento del lenguaje natural o redes neuronales.</p>
+	    				 
+	  				</div>
+			</div>
+		</div>
+
+		<div class="col-lg-6 col-md-8 col-sm-12">
+			<div class="card">
+		  		<img class="card-img-top" src="img/Ilustracion6.png" alt="research">
+ 				 <div class="card-body">
+   					 <h3 class="subtitulos">Research</h3>
+   					 <p class="parrafo">Realizo investigaciones sociales, políticas y de mercado, coordinando con los clientes el tipo de información que desean alcanzar. Focus groups, entrevistas en profundidad y UX research son los pilares para las investigaciones cualitativas, con encuestas y mediciones web como soporte cuantitativo de las mismas.</p>
+    				 
+  				</div>
+  			</div>
+		</div>
+	
+
+
+		<div class="col-lg-6 col-md-8 col-sm-12">
+			<div class="card">
+	  			<img class="card-img-top" src="img/Ilustracion5.png" alt="Consultoría en Marketing Digital">
+	 				 <div class="card-body">
+	   					 <h3 class="subtitulos">Consultoría en Marketing Digital</h3>
+	   					 <p class="parrafo">Asesoramiento en campañas de publicidad, e-mail marketing y redes sociales para que tu producto llegue al público correcto. También te acompaño en el posicionamiento de tu marca, A/B testing y en el diseño de estrategias de marketing analytics para incrementar ventas. </p>
+	    				 
+	  				</div>
+			</div>
+		</div>
+	</div>	
+</div>
+
 
 
 <!--
@@ -153,70 +207,125 @@
 
 <!------------------   TRABAJOS REALIZADOS  ------------------------->
 
-
+<div id="contenedorTrabajos">
 
 <h1 class="seccion" class="animate__animated animate__fadeInLeft">Trabajos realizados</h1>
+
 	<section id="trabajos_realizados">
+	<div class="col d-flex justify-content-center">
+		<div class="col-lg-8 col-md-11 col-sm-12">
+		<div class="trabajosRealizados">			
+		<div id="accordion">
+		  <div class="card">
+		    <div class="card-header" id="headingOne">
+		      <h5 class="mb-0">
+		        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		          <h3 class="subtitulos">Informe por sección</h3>
+		        </button>
+		      </h5>
+		    </div>
 
-		<div>	
-			<h3>Trabajo 1</h3>
-				<p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+		      <div class="card-body">
+		       <p class="parrafo">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus odio quos accusantium et quisquam dolores nam laboriosam reprehenderit inventore soluta exercitationem culpa, temporibus tempora, ipsa! Veritatis eveniet placeat dolorem accusamus.</p>
+		       <div class="contenedorExplorador">
+		     	  <img class="img-fluid" src="img/informe_por_seccion1.png" alt="marilinatrevisan"></div>
+		       </div>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-header" id="headingTwo">
+		      <h5 class="mb-0">
+		        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+		          <h3 class="subtitulos">Explorador de audiencias</h3>
+		        </button>
+		      </h5>
+		    </div>
+		    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+		      <div class="card-body">
+		       <p class="parrafo">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, officiis illo vel id earum, iste obcaecati nihil error sit itaque saepe cumque enim, debitis nobis harum voluptate, atque porro ab.</p>
+		      </div>
+		    </div>
+		  </div>
+		  <div class="card">
+		    <div class="card-header" id="headingThree">
+		      <h5 class="mb-0">
+		        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+		          <h3 class="subtitulos">Trabajo 3</h3>
+		        </button>
+		      </h5>
+		    </div>
+		    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+		      <div class="card-body">
+		        <p class="parrafo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam a voluptates aliquam, corrupti! Corporis, similique impedit, explicabo, officiis enim nulla sapiente iusto nihil perspiciatis sed facilis repellendus totam soluta, atque?</p>
+		      </div>
+		    </div>
+		  </div>
 		</div>
-		<div>	
-			<h3>Trabajo 2</h3>
-				<p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</div>
-		<div>
-			<h3>Trabajo 3</h3>
-				<p class="parrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-			<img class="img__servicios" src="img/informe_por_seccion1.png" alt="marilinatrevisan" height="400"></div>
+			
 
-	</section>
+</section>
 <hr>
-
+</div>
 
 
 <!------------------   NOVEDADES  ------------------------->
-
+<div id="contenedorNovedades">
 <h1 class="seccion" class="animate__animated animate__fadeInLeft">Novedades</h1>
 
-<div>
-	<article class="col-lg-12 col-md-12 col-sm-12">
-		<h3 class="subtitulos">Análisis de audiencias en medios digitales - ADEPA</h3>
-			<p class="parrafo">Participación en el curso “Desarrollo de audiencias”, que  forma parte del programa “Evolución 2020” organizado por Adepa y auspiciado por Facebook Journalism Project. Durante la actividad, abordamos la cultura de datos en las redacciones locales y su importancia en la toma de decisiones respecto a contenidos y audiencias. A partir del caso de La Voz del Interior, hablamos de cómo generar reportes y análisis de las métricas más relevantes para conocer a los usuarios y, a partir de esto, establecer objetivos. ¿Cómo pueden ayudar los datos a generar contenido de valor, aumentar el volumen de tráfico, fidelizar a lectores casuales e incrementar y retener a suscriptores digitales?
-			</p>
 
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/8gmEB5wsF4w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<article>
+
+	<div class="col d-flex justify-content-center">
+		<div class="col-lg-10 col-md-11 col-sm-12">
+			<div class="card text-center">
+		  		<div class="card-body"> 			
+					<h3 class="subtitulos">Análisis de audiencias en medios digitales - ADEPA</h3>
+
+						<div class="contenedorVideo">			
+							<div><p class="parrafo">Durante Agosto participé del dictado del curso “Desarrollo de audiencias”, que  formó parte del programa “Evolución 2020” organizado por Adepa y auspiciado por Facebook Journalism Project. Durante la actividad, abordamos la cultura de datos en las redacciones locales y su importancia en la toma de decisiones respecto a contenidos y audiencias. ¿Cómo pueden ayudar los datos a generar contenido de valor, aumentar el volumen de tráfico, fidelizar a lectores casuales e incrementar y retener a suscriptores digitales?
+							</p></div>
+
+								<div id="videoAdepa">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/8gmEB5wsF4w" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 
 
-		<h3 class="subtitulos">Decisiones Data-Driven - Semana TIC</h3>
-			<p class="parrafo">Participación en la Semana TIC organizada por el Gobierno de la Provincia de Córdoba. Durante la charla, charlamos sobre la cultura de datos en las empresas y su importancia para la toma de decisiones. ¿Cómo generar reportes y análisis de las métricas más relevantes para conocer a las audiencias digitales? ¿Cuál es el rol de un/a Data Analyst? ¿Cómo evitar sesgos en el análisis de datos? A partir de estos interrogantes, hablamos de cómo pueden ayudar los datos al modelo de negocio para aumentar el volumen de tráfico, fidelizar usuarios e incrementar ventas.</p>
+<div class="col d-flex justify-content-center">
+	<div class="col-lg-10 col-md-11 col-sm-12">
+		<div class="card text-center">
+		  	<div class="card-body"> 	
+				<h3 class="subtitulos">Decisiones Data-Driven - Semana TIC</h3>
+					<p class="parrafo">En septiembre participé de la Semana TIC organizada por el Gobierno de la Provincia de Córdoba. Durante la charla, profundizamos en la cultura de datos en las empresas y su importancia para la toma de decisiones. ¿Cómo generar reportes y análisis de las métricas más relevantes para conocer a las audiencias digitales? ¿Cuál es el rol de un/a Data Analyst? ¿Cómo evitar sesgos en el análisis de datos? A partir de estos interrogantes, hablamos de cómo pueden ayudar los datos al modelo de negocio.</p>
 
-		<iframe width="560" height="315" src="https://www.youtube.com/embed/0AmyywIbiwo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-		<h3 class="subtitulos">Del dato al relato - Reescribiendo el código</h3>
-			<p class="parrafo"> Participación en el Podcast "Reescribiendo el código" producido y realizado por Comunidad MeT [Mujeres en Tecnología]. Los datos significan poder. Quien es capaz de recolectarlos, tiene la capacidad de definir, categorizar, interpretar y hacer predicciones en base a ellos. ¿Cuán importante es la presencia del feminismo en el rubro para evitar los sesgos? </p>
-
-
-		<iframe src="https://open.spotify.com/embed-podcast/episode/1XrQpGs4HKv3g4Ihz9DU9Z" width="100%" height="232" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/0AmyywIbiwo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		
+			</div>
+		</div>
+	</div>
 </div>
+
+<div class="col d-flex justify-content-center">
+	<div class="col-lg-10 col-md-11 col-sm-12">
+		<div class="card text-center">
+		  	<div class="card-body"> 
+				<h3 class="subtitulos">Del dato al relato - Reescribiendo el código</h3>
+					<p class="parrafo"> El Podcast "Reescribiendo el código" es producido y realizado por Comunidad MeT [Mujeres en Tecnología] y tuve el gusto de participar del episodio "Del dato al relato". Los datos significan poder. Quien es capaz de recolectarlos, tiene la capacidad de definir, categorizar, interpretar y hacer predicciones en base a ellos. ¿Cuán importante es la presencia del feminismo en el rubro para evitar los sesgos? </p>
+
+
+				<iframe src="https://open.spotify.com/embed-podcast/episode/1XrQpGs4HKv3g4Ihz9DU9Z"  frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+			</div>
+		</div>
+	</div>
+</div>
+
 </article>
+</div>
 	<br>
 <hr>
 
@@ -228,44 +337,39 @@
 
 <div id="contacto">	
 	<h1 class="seccion" class="animate__animated animate__fadeInLeft" >Contacto</h1>
-		<form class="parrafo">
-			<legend><p class="subtitulos">¿Qué puedo hacer por vos?</p></legend>
+		<div class="col d-flex justify-content-center">
+			<div class="col-lg-7 col-md-11 col-sm-12">
+				<div class="card">
+				  	<div class="card-body"> 
+						<form class="parrafo" >
+							<legend><p class="subtitulos">¿Qué puedo hacer por vos?</p></legend>
 
-			<fieldset> 
+							<form>
+							  <div class="form-group">
+							    <label for="exampleFormControlInput1">Nombre y apellido</label>
+							    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="">
+							  </div>
+							  <div class="form-group">
+							    <label for="exampleFormControlSelect1">Correo electrónico</label>
+							     <input type="name" class="form-control" id="exampleFormControlInput2" placeholder="name@example.com">
+							  </div>
+							  <div class="form-group">
+							    <label for="exampleFormControlTextarea1">Ingresá tu mensaje</label>
+							    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Hola, me gustaría que me contactes :)"></textarea>
+							  </div>
+							 <input type="submit" name="Enviar formulario">
 
-			<div>
 
-
-			<label>Ingresá tu nombre</label>
-			<input type="text" name="" placeholder="Nombre y apellido">
+					</form>
+				</div>
 			</div>
-
-			<div>
-			<label>Ingresá tu e-mail</label>
-			<input type="text" name="" placeholder="Correo electrónico">
-			</div>
-
-			<div>	
-
-			<label>Ingresá tu mensaje</label>
-
-			<textarea placeholder="Hola, me gustaría que me contactes :)"></textarea>
-			</div>
-
-
-			
-			<input type="submit" name="Enviar formulario">
-			<input type="reset" name="Borrar formulario">
-
-
-</fieldset>
-</form>
+	</div>
 </div>
+
 				
 	<br>
 	<br>
 	<br>
-<!------------------   VOLVER AL INICIO ------------------------->
 
 
 
@@ -276,17 +380,19 @@
 
 	<div id="footer">
 
-		<p class="parrafo"> Podés escribirme a: <a class="parrafo" href="mailto:marilinatrevisan@gmail.com">marilinatrevisan@gmail.com</a> </p>
+		<p class="parrafo"> También podés escribirme a: <a class="parrafo" href="mailto:marilinatrevisan@gmail.com">marilinatrevisan@gmail.com</a> </p>
 		<p class="parrafo"> O comunicarte por 
 		<a class="parrafo" href="https://linkedin.com/in/marilinatrevisan" target="_blank">Linkedin</a></p>
 		<hr>
 		<br>
 	</div>
 
-<p>
+	<div>
+		<p>
+			<a class="volveralinicio" href="#sobremi">Volver al inicio</a>
+		</p>
+	</div>
 
-	<a class="volveralinicio" href="#inicio">Volver al inicio</a>
-</p>
 </footer>
 
 
