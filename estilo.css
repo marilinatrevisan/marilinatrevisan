@@ -257,7 +257,7 @@ header {
 			padding-top: 1rem;
 			padding-bottom: 0.1rem;
 			margin-bottom: 0rem;
-			margin-right: 0rem;
+			max-width: 1300px;
 			font-family: 'Josefin Sans', sans-serif;
 			background-color: #06908f;
 		}
@@ -337,8 +337,7 @@ header nav ul li a {
 .contenedorMenu {
 	position:fixed;
 	width: 100%;
-	max-width:1300px;
-	padding-right: 2.4%;
+	padding-right: 6%;
 	margin: 0px;
 	z-index:1000;
 	top:0;
